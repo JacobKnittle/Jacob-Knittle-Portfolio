@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #151515;
+	color: white;
+
+	font-family: 'Space Grotesk', sans-serif;
+}
+.wrapper {
+	max-width: 1110px;
+	margin: 0 auto;
+	background-image: url('./assets/images/image-profile-desktop.webp');
+	background-repeat: no-repeat;
+	background-size: 445px 720px;
+	background-position: top right;
+}
+li {
+	list-style: none;
+}
+
+.navbar {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 3.9rem;
+	padding-bottom: 12.7rem;
+}
+
+.nav-logo {
+	font-size: 2rem;
+}
+
+.navbar ul {
+	display: flex;
+}
+
+.navbar li {
+	margin-right: 3rem;
+}
+
+.hero-content {
+	display: flex;
+	margin-bottom: 21.9rem;
+}
+
+.hero-text {
+	max-width: 706px;
+}
+
+.hero-content h1 {
+	font-size: 8.8rem;
+	letter-spacing: -2.5px;
+	margin-bottom: 4.3rem;
+}
+.hero-content p {
+	max-width: 445px;
+	font-size: 1.8rem;
+	line-height: 28px;
+	padding-bottom: 6.6rem;
+}
+.hero-content span {
+	font-size: 1.6rem;
+	line-height: 2.6rem;
+	letter-spacing: 2.29px;
+}
