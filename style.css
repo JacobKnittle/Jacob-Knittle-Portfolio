@@ -31,6 +31,11 @@ body {
 	line-height: 3.2rem;
 }
 
+.body-L {
+	font-size: 1.8rem;
+	line-height: 2.8rem;
+}
+
 .wrapper {
 	max-width: 1110px;
 	margin: 0 auto;
@@ -119,11 +124,13 @@ li {
 .project-previews {
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 13.9rem;
 }
 
 .project {
 	max-height: 487px;
 	max-width: 540px;
+	margin-bottom: 6.9rem;
 }
 
 .project img {
@@ -131,4 +138,49 @@ li {
 }
 .project:nth-of-type(odd) {
 	margin-right: 3rem;
+}
+
+.project h4 {
+	font-size: 2.4rem;
+	line-height: 3.2rem;
+	margin-top: 2rem;
+}
+
+.project span {
+	font-size: 1.8rem;
+	line-height: 2.8rem;
+}
+
+.project ul {
+	display: flex;
+}
+.project li {
+	margin-right: 1.8rem;
+	margin-top: 0.7rem;
+}
+
+.contact-section {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contact-content {
+	max-width: 445px;
+	max-height: 208px;
+	margin-bottom: 38.3rem;
+}
+
+.contact-content h2 {
+	margin-bottom: 3.6rem;
+}
+
+.contact-section form {
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
