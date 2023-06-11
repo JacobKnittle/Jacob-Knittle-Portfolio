@@ -506,3 +506,25 @@ textarea {
 		justify-content: center;
 	}
 }
+
+@media screen and (max-width: 430px) {
+	.navbar {
+		margin-bottom: 10rem;
+	}
+
+	.contact-me {
+		font-size: 1.2rem;
+	}
+
+	.XL {
+		font-size: 4rem;
+	}
+
+	.contact-content {
+		margin-bottom: 10rem;
+	}
+
+	.footer-content {
+		font-size: 2rem;
+	}
+}
